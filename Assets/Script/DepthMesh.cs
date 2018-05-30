@@ -2,6 +2,7 @@
 using System.Collections;
 using AForge.Imaging.Filters;
 using AForge.Imaging;
+using AForge.Video.Kinect;
 
 public class DepthMesh : MonoBehaviour
 {
