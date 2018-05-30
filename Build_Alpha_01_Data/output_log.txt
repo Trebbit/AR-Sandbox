@@ -1,0 +1,76 @@
+Initialize engine version: 5.4.3f1 (01f4c123905a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     2018 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\System.Drawing.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\System.Drawing.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Controls.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Controls.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Fuzzy.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Fuzzy.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Genetic.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Genetic.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Imaging.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Imaging.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Imaging.Formats.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Imaging.Formats.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Imaging.IPPrototyper.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Imaging.IPPrototyper.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.MachineLearning.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.MachineLearning.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Math.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Math.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Neuro.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Neuro.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Robotics.Lego.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Robotics.Lego.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Robotics.Surveyor.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Robotics.Surveyor.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Video.DirectShow.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Video.DirectShow.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Video.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Video.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Video.Kinect.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Video.Kinect.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Video.VFW.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Video.VFW.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Video.Ximea.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Video.Ximea.dll into Unity Child Domain
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Vision.dll (this message is harmless)
+Loading X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\AForge.Vision.dll into Unity Child Domain
+- Completed reload, in  0.064 seconds
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: X:\SANDBOX 5\AR-Sandbox-master\Build_Alpha_01_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.667260 ms
+Fallback handler could not load library X:/SANDBOX 5/AR-Sandbox-master/Build_Alpha_01_Data/Mono/libc
+Fallback handler could not load library X:/SANDBOX 5/AR-Sandbox-master/Build_Alpha_01_Data/Mono/.\libc
+Fallback handler could not load library X:/SANDBOX 5/AR-Sandbox-master/Build_Alpha_01_Data/Mono/libc
+17600
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+103986
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2cec -> priority: 1 
+  Thread -> id: 2554 -> priority: 1 

@@ -1,12 +1,11 @@
-﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
-
-Shader "Custom/TerrainShader" {
+﻿Shader "Custom/TerrainShader" {
 	Properties {
 		_Water ("Water", 2D) = "white" {}
 		_Sand ("Sand", 2D) = "white" {}
-		_Grass ("Rock", 2D) = "white" {}
+		_Grass ("Grass", 2D) = "white" {}
 		_Rock ("Rock", 2D) = "white" {}
-		_Stone("Stone",2D) = "white"{}
+		_Stone ("Stone", 2D) = "white" {}
+		_Mountain ("Mountain", 2D) = "white" {}
 		_WaterLevel ("Water Level", Float) = 0
 		_LayerSize ("Layer Size", Float) = 20
 		_BlendRange ("Blend Range", Range(0, 0.5)) = 0.1
@@ -22,7 +21,8 @@ Shader "Custom/TerrainShader" {
             uniform sampler2D _Sand;
             uniform sampler2D _Grass;
             uniform sampler2D _Rock;
-			uniform sampler2D _Stone;
+            uniform sampler2D _Stone;
+            uniform sampler2D _Mountain;
 
             uniform float _WaterLevel;
             uniform float _LayerSize;
@@ -36,9 +36,9 @@ Shader "Custom/TerrainShader" {
       
 			fragmentInput vert (appdata_base v)
 			{
-				float NumOfTextures = 5;
+				float NumOfTextures = 4;
 				fragmentInput o;
-				o.pos = UnityObjectToClipPos (v.vertex);
+				o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
                 o.texcoord = v.texcoord;
 
 				//  |-----------|--------|--------|------------------|
@@ -70,7 +70,7 @@ Shader "Custom/TerrainShader" {
 
 			float4 frag (fragmentInput i) : COLOR0 
 			{ 	
-				float NumOfTextures = 5;
+				float NumOfTextures = 6;
 				float TextureFloat = i.blend.w * NumOfTextures;
 
 				if(TextureFloat < 1)
@@ -93,7 +93,7 @@ Shader "Custom/TerrainShader" {
 					fixed4 RockColor = tex2D(_Rock, i.texcoord);
 
 					return DoBlending(2, TextureFloat, GrassColor, RockColor);
-				}
+				} // Extra shaders
 				else if(TextureFloat < 4)
 				{
 					fixed4 RockColor = tex2D(_Rock, i.texcoord);
@@ -101,14 +101,22 @@ Shader "Custom/TerrainShader" {
 
 					return DoBlending(2, TextureFloat, RockColor, StoneColor);
 				}
+				else if(TextureFloat < 5)
+				{
+					fixed4 StoneColor = tex2D(_Stone, i.texcoord);
+					fixed4 MountainColor = tex2D(_Mountain, i.texcoord);
+
+					return DoBlending(2, TextureFloat, StoneColor, MountainColor);
+				}
 				
 				fixed4 RockColor = tex2D(_Rock, i.texcoord);
-				fixed4 StoneColor = tex2D(_Stone, i.texcoord);
 
 				return RockColor;
 
 				fixed4 WaterColor = tex2D(_Water, i.texcoord);
 				fixed4 SandColor = tex2D(_Sand, i.texcoord);
+				fixed4 StoneColor = tex2D(_Stone, i.texcoord);
+				fixed4 MountainColor = tex2D(_Mountain, i.texcoord);
 
 				return lerp(WaterColor, SandColor, i.blend.w);
 
