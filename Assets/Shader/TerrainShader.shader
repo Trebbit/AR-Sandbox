@@ -36,7 +36,7 @@
       
 			fragmentInput vert (appdata_base v)
 			{
-				float NumOfTextures = 4;
+				float NumOfTextures = 6;
 				fragmentInput o;
 				o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
                 o.texcoord = v.texcoord;
@@ -115,10 +115,11 @@
 
 				fixed4 WaterColor = tex2D(_Water, i.texcoord);
 				fixed4 SandColor = tex2D(_Sand, i.texcoord);
-				fixed4 StoneColor = tex2D(_Stone, i.texcoord);
-				fixed4 MountainColor = tex2D(_Mountain, i.texcoord);
 
 				return lerp(WaterColor, SandColor, i.blend.w);
+				
+				fixed4 StoneColor = tex2D(_Stone, i.texcoord);
+				fixed4 MountainColor = tex2D(_Mountain, i.texcoord);
 
 				//return i.texcoord;	
                 //return tex2D(_Water, i.texcoord);
