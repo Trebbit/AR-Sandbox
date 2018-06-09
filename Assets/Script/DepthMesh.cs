@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using AForge.Imaging.Filters;
 using AForge.Imaging;
 
 public class DepthMesh : MonoBehaviour
