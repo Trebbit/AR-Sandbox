@@ -16,9 +16,27 @@ Material:
     serializedVersion: 2
     m_TexEnvs:
     - first:
+        name: _Dirt
+      second:
+        m_Texture: {fileID: 2800000, guid: abe2decbd7720b5498069522fd474835, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
         name: _Grass
       second:
-        m_Texture: {fileID: 2800000, guid: 79755b9396c25c143ab8ed83556ce1e2, type: 3}
+        m_Texture: {fileID: 2800000, guid: ba897ee36c7f4e44bb7ff67fb79ff687, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _GrassDark
+      second:
+        m_Texture: {fileID: 2800000, guid: 61149af5dfe35074c9d35b720fa1ed77, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _GrassLight
+      second:
+        m_Texture: {fileID: 2800000, guid: ba897ee36c7f4e44bb7ff67fb79ff687, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -30,31 +48,67 @@ Material:
     - first:
         name: _Mountain
       second:
-        m_Texture: {fileID: 2800000, guid: 5e11fceaeaeeee64a9e42f8b184f3381, type: 3}
+        m_Texture: {fileID: 2800000, guid: cef8715873c13454e9ddaf2f95d8ca8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MountainHigh
+      second:
+        m_Texture: {fileID: 2800000, guid: 345d2e47a93e8ec4d8423b34dac0174b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MountainLow
+      second:
+        m_Texture: {fileID: 2800000, guid: 1a07cdee03afd93418f7c190a47b4bd8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MountainMedium
+      second:
+        m_Texture: {fileID: 2800000, guid: 581c99ddba203b84fb6f72e1ec496dbb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _Rock
       second:
-        m_Texture: {fileID: 2800000, guid: 57942fd66db35584cabe2d9568362e33, type: 3}
+        m_Texture: {fileID: 2800000, guid: 84e34228e4abb60478c7cd5fdf7205da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RockHigh
+      second:
+        m_Texture: {fileID: 2800000, guid: cef8715873c13454e9ddaf2f95d8ca8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RockLow
+      second:
+        m_Texture: {fileID: 2800000, guid: 84e34228e4abb60478c7cd5fdf7205da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RockMedium
+      second:
+        m_Texture: {fileID: 2800000, guid: cb86896066b617d4a90239d5d61648ea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _Sand
       second:
-        m_Texture: {fileID: 2800000, guid: 62678e2f726b7f741b9aa33d36005ca3, type: 3}
+        m_Texture: {fileID: 2800000, guid: ae0c1c164c05f764198f21075014ba49, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _Stone
       second:
-        m_Texture: {fileID: 2800000, guid: 3bc656358df2c804ba1ecfefd23056b6, type: 3}
+        m_Texture: {fileID: 2800000, guid: cb86896066b617d4a90239d5d61648ea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _Water
       second:
-        m_Texture: {fileID: 2800000, guid: ac5b9e8fc4dd93543ba0ecbb6fa78eac, type: 3}
+        m_Texture: {fileID: 2800000, guid: febbd54b17a0e5c4097683ee5d4b3af5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -73,6 +127,18 @@ Material:
         name: _Water3
       second:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WaterDeep
+      second:
+        m_Texture: {fileID: 2800000, guid: febbd54b17a0e5c4097683ee5d4b3af5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WaterLow
+      second:
+        m_Texture: {fileID: 2800000, guid: 44858a0bd44375e4e821e0793af47f35, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
