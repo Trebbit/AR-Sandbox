@@ -1,0 +1,16 @@
+3 introductie paginas soort van tutorial.
+daarna krijg je een klein pop-up met informatie zoals wat de sliders kunnen doen.
+slider 1 = lucht kwaliteit
+	kleur= ?
+	waarde = 0,10
+	stepper = true.
+
+slider 2 = grond kwaliteit
+	kleur =  groen
+	waarde = 0,10
+	stepper=  true
+
+slider 3 = water kwaliteit
+	kleur = blauw
+	waarde = 0,10
+	stepper = true
