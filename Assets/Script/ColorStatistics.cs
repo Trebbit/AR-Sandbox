@@ -42,6 +42,7 @@ public class ColorStatistics : MonoBehaviour {
 		if(layer >= 0 && layer < colorAmmounts.Length)
 		{
 			colorAmmounts[layer]++;
+			Debug.Log("z-Value" + zVal + "Layer: " + layer);
 		}
 		else 
 		{

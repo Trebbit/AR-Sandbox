@@ -144,10 +144,10 @@ Material:
     m_Floats:
     - first:
         name: _BlendRange
-      second: 0.194
+      second: 0
     - first:
         name: _LayerSize
-      second: 2.4
+      second: 3
     - first:
         name: _MaxZ
       second: 100
@@ -156,7 +156,7 @@ Material:
       second: 0
     - first:
         name: _WaterLevel
-      second: 30.26
+      second: 30
     m_Colors:
     - first:
         name: _Color
