@@ -48,7 +48,7 @@
       
 			fragmentInput vert (appdata_base v)
 			{
-				float NumOfTextures = 6;
+				float NumOfTextures = 12;
 				fragmentInput o;
 				o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
                 o.texcoord = v.texcoord;

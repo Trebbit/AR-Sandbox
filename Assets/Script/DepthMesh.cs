@@ -211,20 +211,23 @@ public class DepthMesh : MonoBehaviour
         MinDepthValueBuffer = short.MaxValue;
         MaxDepthValueBuffer = short.MinValue;
 
+        ColorStatistics.instance.Clear();
         for (int H = 0; H < Height; H++)
         {
             for (int W = 0; W < Width; W++)
             {
-                ProcessPixel(W, H);
+               float val = ProcessPixel(W, H);
+               ColorStatistics.instance.Add(val);
             }
         }
+        ColorStatistics.instance.Frame();
 
         MyMesh.vertices = newVertices;
         MyMesh.colors32 = newColors;
         MyMesh.RecalculateNormals();
     }
 
-    void ProcessPixel(int W, int H)
+    float ProcessPixel(int W, int H)
     {
         int Index = GetArrayIndex(W, H);
         float FloatValue = FloatValues[Index];
@@ -239,12 +242,16 @@ public class DepthMesh : MonoBehaviour
         float FloatValueClamped = Mathf.Clamp01(FloatValue);
         byte ByteValue = (byte)Mathf.RoundToInt(FloatValue * byte.MaxValue);
 
+        /* 
         //0-127 = 0 :: 127- 255 = 0 - 255
         byte R = (byte)(Mathf.Clamp((ByteValue - 127) * 2, 0, 255));
         //0 = 0; 127 = 255; 255 = 0
         byte G = (byte)(127 + (Mathf.Sign(127 - ByteValue) * ByteValue / 2));
         byte B = (byte)(255 - Mathf.Clamp(ByteValue * 2, 0, 255));
         newColors[Index] = new Color32(R, G, B, 255);
+        */
+        newColors[Index] = new Color32(0,0,0,255);
+        return newVertices[Index].z;
     }
 
     int GetImageIndex(int W, int H)
