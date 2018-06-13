@@ -1,4 +1,36 @@
-import { AppRegistry } from 'react-native';
-import App from './App';
+import React, { Compenent } from 'react';
+import { AppRegistry, View } from 'react-native';
+import { StackNavigator } from 'react-navigation'
 
-AppRegistry.registerComponent('React_project', () => App);
+import { startScreen } from './pages/startScreen';
+import { grondInfo } from './pages/grondInfo';
+import { luchtInfo } from './pages/luchtInfo';
+import { waterInfo } from './pages/waterInfo';
+import { sliderPage } from './pages/sliderPage';
+import { test } from './pages/test';
+
+const App = StackNavigator({
+    grondInfo: { screen: grondInfo },
+    startScreen: { screen: startScreen, title: 'hoi' },
+    luchtInfo: { screen: luchtInfo },
+    waterInfo: { screen: waterInfo },
+    sliderPage: { screen: sliderPage }
+},
+    {
+        initialRouteName: 'startScreen',
+    }
+);
+
+
+export default class ARSandbox extends React.Component {
+
+    static navigationOptions = {
+        title: 'welcome'
+    };
+
+    render() {
+        return <App />;
+    }
+}
+
+AppRegistry.registerComponent('React_project', () => startScreen);
