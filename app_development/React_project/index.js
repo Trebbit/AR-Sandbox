@@ -1,6 +1,6 @@
 import React, { Compenent } from 'react';
 import { AppRegistry, View } from 'react-native';
-import { StackNavigator } from 'react-navigation'
+import { StackNavigator } from 'react-navigation';
 
 import { startScreen } from './pages/startScreen';
 import { grondInfo } from './pages/grondInfo';
@@ -11,13 +11,14 @@ import { test } from './pages/test';
 
 const App = StackNavigator({
     grondInfo: { screen: grondInfo },
-    startScreen: { screen: startScreen, title: 'hoi' },
+    startScreen: { screen: startScreen },
     luchtInfo: { screen: luchtInfo },
     waterInfo: { screen: waterInfo },
     sliderPage: { screen: sliderPage }
 },
     {
-        initialRouteName: 'startScreen',
+        headerMode: 'none',
+        initialRouteName: 'sliderPage',
     }
 );
 
@@ -33,4 +34,4 @@ export default class ARSandbox extends React.Component {
     }
 }
 
-AppRegistry.registerComponent('React_project', () => startScreen);
+AppRegistry.registerComponent('React_project', () => App);

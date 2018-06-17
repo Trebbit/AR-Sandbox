@@ -1,67 +1,41 @@
-import React, { Compenent } from 'react';
-import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
-import { Button, Avatar, Badge, Icon } from 'react-native-elements';
-import Feather from 'react-native-vector-icons/Feather';
+import React from 'react';
+import { Text, View, StyleSheet } from 'react-native';
+import { Button, Slider } from 'react-native-elements';
 
 export class startScreen extends React.Component {
-    static navigationOptions = {
-        headerStyle: {
-            backgroundColor: 'rgba(0,0,0,1)',
-        },
-    };
     render() {
         return (
-            <View>
-                <View style={styles.backgroundTop}>
-                    <View style={styles.BackButton}>
-                        <TouchableOpacity>
-                            <Feather name='arrow-left' size={20} color='#FFFFFF' />
-                        </TouchableOpacity>
-
-                    </View>
+            <View style={styles.test}>
+                <Text style={styles.textStyle}>AR Sandbox</Text>
+                <View style={styles.startButton}>
+                    <Button
+                        title='START'
+                        backgroundColor='#F1888A'
+                        raised={true} />
                 </View>
-                <View style={styles.backgroundbot}>
-                    <View style={styles.NextButton}>
-                        <Button
-                            backgroundColor="#F1888A"
-                            raised={true}
-                            title='next'
-                            fontFamily='Roboto'
-                            fontSize={20}
-                            fontWeight='500'
-                        />
-                    </View>
-                </View>
-            </View>
+            </View >
         );
     }
 }
 
 const styles = StyleSheet.create({
-    backgroundTop: {
-        backgroundColor: '#2196F3',
-        width: '100%',
-        height: '20%',
-
+    startButton: {
+        width: '45%',
+        height: '25%',
+        marginTop: 125,
     },
-    backgroundbot: {
-        backgroundColor: '#BBDEFB',
-        width: '100%',
-        height: '80%',
-        zIndex: -1
+    textStyle: {
+        color: '#000000',
+        textAlign: 'center',
+        textShadowColor: 'rgba(255,255,0,1)',
+        fontWeight: 'bold',
+        fontSize: 24,
+        textShadowRadius: 3,
+        marginTop: 300
     },
-
-    BackButton: {
-        width: '4%',
-        backgroundColor: 'rgba(0,0,0,0)',
-        marginTop: 12,
-        marginLeft: 12
-    },
-
-    NextButton: {
-        width: '35%',
-        height: '40%',
-        marginTop: 450,
-        marginLeft: 260
-    },
+    test: {
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center'
+    }
 });
