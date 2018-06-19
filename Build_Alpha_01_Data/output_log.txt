@@ -2,75 +2,150 @@ Initialize engine version: 5.4.3f1 (01f4c123905a)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Renderer: NVIDIA GeForce GTX 965M (ID=0x1427)
     Vendor:   NVIDIA
-    VRAM:     2018 MB
+    VRAM:     3072 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\System.Drawing.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\System.Drawing.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Controls.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Controls.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Fuzzy.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Fuzzy.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Genetic.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Genetic.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Imaging.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Imaging.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Imaging.Formats.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Imaging.Formats.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Imaging.IPPrototyper.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Imaging.IPPrototyper.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.MachineLearning.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.MachineLearning.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Math.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Math.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Neuro.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Neuro.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Robotics.Lego.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Robotics.Lego.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Robotics.Surveyor.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Robotics.Surveyor.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.DirectShow.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.DirectShow.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.Kinect.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.Kinect.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.VFW.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.VFW.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.Ximea.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.Ximea.dll into Unity Child Domain
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Vision.dll (this message is harmless)
-Loading X:\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Vision.dll into Unity Child Domain
-- Completed reload, in  0.063 seconds
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: X:\AR-Sandbox\Build_Alpha_01_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Controls.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Controls.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Fuzzy.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Fuzzy.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Genetic.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Genetic.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Imaging.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Imaging.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Imaging.Formats.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Imaging.Formats.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Imaging.IPPrototyper.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Imaging.IPPrototyper.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.MachineLearning.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.MachineLearning.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Math.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Math.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Neuro.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Neuro.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Robotics.Lego.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Robotics.Lego.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Robotics.Surveyor.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Robotics.Surveyor.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.DirectShow.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.DirectShow.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.Kinect.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.Kinect.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.VFW.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.VFW.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.Ximea.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Video.Ximea.dll into Unity Child Domain
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Vision.dll (this message is harmless)
+Loading D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\AForge.Vision.dll into Unity Child Domain
+- Completed reload, in  0.494 seconds
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\opdrachten\AR-Sandbox\Build_Alpha_01_Data\Managed\System.dll (this message is harmless)
+FileNotFoundException: Could not load file or assembly 'System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies.
+
+ 
+(Filename:  Line: -1)
+
+FileNotFoundException: Could not load file or assembly 'System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies.
+
+ 
+(Filename:  Line: -1)
+
+FileNotFoundException: Could not load file or assembly 'System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies.
+
+ 
+(Filename:  Line: -1)
+
+FileNotFoundException: Could not load file or assembly 'System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies.
+
+ 
+(Filename:  Line: -1)
+
+desktop: 2560x1080 60Hz; virtual: 2560x2160 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.676347 ms
-Fallback handler could not load library X:/AR-Sandbox/Build_Alpha_01_Data/Mono/libc
-Fallback handler could not load library X:/AR-Sandbox/Build_Alpha_01_Data/Mono/.\libc
-Fallback handler could not load library X:/AR-Sandbox/Build_Alpha_01_Data/Mono/libc
-17600
+The script behaviour 'DepthMesh' could not be instantiated!
+ 
+(Filename:  Line: 1539)
+
+The script behaviour 'MeshCalibration' could not be instantiated!
+ 
+(Filename:  Line: 1539)
+
+A script behaviour (probably DepthMesh?) has a different serialization layout when loading. (Read 32 bytes but expected 92 bytes)
+Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+ 
+(Filename:  Line: 1764)
+
+UnloadTime: 0.641578 ms
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+C:\Windows\System32\Kinect10.dll
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-103986
+TypeLoadException: Could not load type 'DepthMesh' from assembly 'Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+(Filename:  Line: -1)
+
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\C:\Windows\System32\Kinect10
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/.\libC:\Windows\System32\Kinect10.dll
+Fallback handler could not load library D:/opdrachten/AR-Sandbox/Build_Alpha_01_Data/Mono/libC:\Windows\System32\Kinect10.dll
+DllNotFoundException: C:\Windows\System32\Kinect10.dll
+  at (wrapper managed-to-native) Kinect.NativeMethods:NuiShutdown ()
+  at KinectSensor.OnApplicationQuit () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1224 -> priority: 1 
-  Thread -> id: e4 -> priority: 1 
+  Thread -> id: 5028 -> priority: 1 
+  Thread -> id: 26c8 -> priority: 1 
