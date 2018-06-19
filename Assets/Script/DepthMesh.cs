@@ -208,6 +208,8 @@ public class DepthMesh : MonoBehaviour
 
     void UpdateMesh()
     {
+        int tellertje=0;
+        
         MinDepthValueBuffer = short.MaxValue;
         MaxDepthValueBuffer = short.MinValue;
 

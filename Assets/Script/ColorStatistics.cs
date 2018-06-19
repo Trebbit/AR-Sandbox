@@ -9,6 +9,7 @@ public class ColorStatistics : MonoBehaviour {
 	public float waterLevel;
 	public float layerSize;
 	public int numberOfLayers;
+	public int testInt = 0;
 
 	void Awake()
 	{
@@ -38,17 +39,19 @@ public class ColorStatistics : MonoBehaviour {
 
 	public void Add(float zVal)
 	{
-		int layer = (int) Mathf.Floor((zVal - waterLevel)/layerSize);
-		if(layer >= 0 && layer < colorAmmounts.Length)
+		int layer = (int) Mathf.Floor((zVal + waterLevel)/layerSize);
+		if (layer > 100)
+		{
+			colorAmmounts[0]++;
+			//testInt++;
+		}
+		else if(layer > 0 && layer < colorAmmounts.Length)
 		{
 			colorAmmounts[layer]++;
-			Debug.Log("z-Value" + zVal + "Layer: " + layer);
+			//Debug.Log("zVal: " + zVal);
+			//Debug.Log("z-Value" + zVal + "Layer: " + layer);
 		}
-		else 
-		{
-			//Running this log is too intense, there's too much shit.
-			//Debug.Log("Found invalid layer: " + layer);
-		}
+			Debug.Log("zVal: " + zVal + " layer: " + layer);
 	}
 
 	public void Frame()
