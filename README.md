@@ -1,11 +1,5 @@
 # AR-Sandbox
 
-Visually augmented sandbox using Kinect and Unity3D.
-Inspiried by [SARndbox](http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/)
-
-See the Project in action on [Youtube](https://www.youtube.com/playlist?list=PLiYkNDKSkCd4wgPixZNUtXTdhxdEhq7Vk).
-Otherwise there are some images in the project "Images" folder.
-
 ## Dependency 
 * [Unity3D 5.4.3](http://unity3d.com/)
 * Kinect SDK 1.8
@@ -58,11 +52,6 @@ However have the Kinect SDK 1.8 installed and the Kinect pluged in before starti
 
 Arrange the Projector and the Kinect so they cover the sandbox. We used a giant mirror on the wall (see the Project Images).
 Open the "DepthMesh" scene in Unity and check "Maximize at Play" button. Hit play and get the "Play" View on the Projector.
-
-## Calibration
-
-Originally we tried to use QR-Marker. Since they didn't work with our mirror, we only have trivial manual calibration.
-The MinDepth and MaxValue values as well as the Terrain Shader values are depending on the distance of the Kinect to the Sandbox.
 
 ### Cropping
 
